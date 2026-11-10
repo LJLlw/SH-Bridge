@@ -1,0 +1,16 @@
+# build output
+module/build/
+build/
+*.apk
+*.idsig
+!release/*.apk
+
+# signing material (never commit)
+*.jks
+*.keystore
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.iml

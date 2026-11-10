@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumhealth.shealthbridge"
+    android:versionCode="20"
+    android:versionName="2.0.0">
+
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+
+    <application
+        android:label="健康服务桥接 (SH Bridge)"
+        android:hasCode="true"
+        android:allowBackup="false">
+
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="By LJLlw — 放行 Samsung Health 国际版 7.x 的 Health SDK 合作方策略层，用于国行健康服务(com.samsung.android.swsportplugin)" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scope" />
+    </application>
+</manifest>
